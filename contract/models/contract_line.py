@@ -1079,7 +1079,7 @@ class ContractLine(models.Model):
     @api.model
     def get_view(self, view_id=None, view_type="form", **options):
         default_contract_type = self.env.context.get("default_contract_type")
-        if view_type == "tree" and default_contract_type == "purchase":
+        if view_type == "list" and default_contract_type == "purchase":
             view_id = self.env.ref("contract.contract_line_supplier_tree_view").id
         if view_type == "form":
             if default_contract_type == "purchase":
