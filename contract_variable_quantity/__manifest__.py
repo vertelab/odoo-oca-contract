@@ -10,7 +10,7 @@
     "category": "Contract Management",
     "license": "AGPL-3",
     "author": "Tecnativa, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/contract",
+    "website": "https://vertel.se/apps/odoo-oca-contract/contract_variable_quantity",
     "depends": ["contract"],
     "data": [
         "security/ir.model.access.csv",
