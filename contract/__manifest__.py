@@ -11,6 +11,22 @@
 
 {
     "name": "Recurring - Contracts Management",
+    'summary': "Manages recurring contracts with invoicing.",
+    'description': '''
+Recurring - Contracts Management
+================================
+
+    Manages recurring contracts with invoicing.
+
+    Features:
+
+        - Web integration: Exposes HTTP endpoints for external systems.
+        - Automation: Scheduled jobs: Generate Recurring Invoices from Contracts, Renew Contract lines.
+        - Guided Wizards: Step-by-step dialogs for data entry.
+        - Reports: Adds printable reports.
+        - UI Integration: Extends 10 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.analytic.account, account.fiscal.position, account.journal, account.move.
+    ''',
     "version": "18.0.1.4.3",
     "category": "Contract Management",
     "license": "AGPL-3",

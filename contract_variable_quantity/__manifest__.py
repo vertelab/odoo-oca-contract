@@ -6,6 +6,18 @@
 
 {
     "name": "Variable quantity in contract recurrent invoicing",
+    'summary': "Adds variable quantities to contract lines.",
+    'description': '''
+Variable quantity in contract recurrent invoicing
+=================================================
+
+    Adds variable quantities to contract lines.
+
+    Features:
+
+        - UI Integration: Extends 6 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on contract.abstract.contract.line, contract.contract, contract.line, contract.line.qty.formula.
+    ''',
     "version": "18.0.1.0.0",
     "category": "Contract Management",
     "license": "AGPL-3",
